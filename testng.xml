@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="sourcedepartment" value="chikkamagaluru"></parameter>
+    <parameter name="destinationdepartment" value="Bengaluru"></parameter>
+    <parameter name="passengername" value="hatem"></parameter>
+    <parameter name="age" value="25"></parameter>
+    <parameter name="icard" value="ABCDE1234F"></parameter>
+    <test verbose="2" preserve-order="true" name="D:/projects/automationtask">
+        <classes>
+            <class name="org.example.Main"></class>
+        </classes>
+    </test>
+</suite>
